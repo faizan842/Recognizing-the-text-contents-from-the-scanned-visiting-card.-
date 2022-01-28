@@ -32,7 +32,7 @@ Install my-project with npm
 ```bash
   pip install pytesseract
 ```
-Method used -
+**Method used** -
 
 **pytesseract.image_to_string()** -
 Returns the result of a Tesseract OCR run on the provided image to string
@@ -49,26 +49,26 @@ Install my-project with npm
 ```bash
   pip install opencv-python
 ```
-Methods used - 
+**Methods used** - 
 
-cv2.imread()
+**cv2.imread()**
 The function imread loads an image from the specified file and returns it. If the image cannot be read (because of missing file, improper permissions, unsupported or invalid format), the function returns an empty matrix ( Mat::data==NULL )
 
-cv2.resize()
+**cv2.resize()**
 The function resizes the image src down to or up to the specified size. note that the initial dst type or size are not taken into account. Instead, the size and type are derived from the `src`,`dsize`,`fx`, and `fy`.
 
-cv2.cvtcolor()
+**cv2.cvtcolor()**
 The function converts an input image from one color space to another. In case of a transformation to-from RGB color space, the order of the channels should be specified explicitly (RGB or BGR). Note that the default color
 format in OpenCV is often referred to as RGB but it is actually BGR (thebytes are reversed).
 
-cv2.thresh() -
+**cv2.thresh()** -
 The function applies fixed-level thresholding to a multiple-channel array. The function is typically used to get a bi-level (binary) image out of a grayscale image ( compare could be also used for this purpose) or for removing a noise, that is, filtering out pixels with too small or too large
 values.
 
-cv2.imshow()-
+**cv2.imshow()** -
 The function imshow displays an image in the specified window. If the window was created with the cv::WINDOW_AUTOSIZE flag, the image is shown with its original size, however it is still limited by the screen resolution.Otherwise,theimageisscaledtofitthewindow.
 
-cv2.waitkey()-
+**cv2.waitkey()**-
 The function waitKey waits for a key event infinitely when it is 0 or for delay milliseconds, when it is positive. Since the OS has a minimum time between switching threads, the function will not wait exactly to delay ms, it will wait at least delay ms, depending on what else is running on your computer at that time.
 
 cv2.rectangle() -
