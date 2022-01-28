@@ -34,10 +34,10 @@ Install my-project with npm
 ```
 Method used -
 
-pytesseract.image_to_string() -
+**pytesseract.image_to_string()** -
 Returns the result of a Tesseract OCR run on the provided image to string
 
-pytesseract.image_to_data() -
+**pytesseract.image_to_data()** -
 Returns string containing box boundaries, confidences,and other information .
 ##  Opencv  -
 OpenCV is an open-source library for computer vision, machine learning, and image processing.
