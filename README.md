@@ -22,7 +22,6 @@ Tesseract is an open source text recognition (OCR) Engine, available under the A
 ## Pytesseract -
 Python-tesseract is an optical character recognition (OCR) tool for
 python. That is, it will recognize and “read” the text from an image.
-
 It is also useful as a stand-alone invocation script to tesseract, as it can read all image types supported by the Pillow and Leptonica imaging libraries, including jpeg, png, gif, bmp, tiff, and others.
 
 INSTALLATION (Python-tesseract requires Python 3.6+)
